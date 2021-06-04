@@ -48,7 +48,7 @@ throw_if_empty username $username
 
 # Install java
 sudo apt-get update
-sudo apt-get install -y openjdk-9-jdk
+sudo apt-get install -y openjdk-8-jdk
 
 # Install Halyard
 curl --silent "https://raw.githubusercontent.com/spinnaker/halyard/master/install/debian/InstallHalyard.sh" | sudo bash -s -- --user "$username" -y
